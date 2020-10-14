@@ -8,7 +8,7 @@ end
 if name_hash == {} 
   return nil 
 else 
-  smallest
-
+  smallest.first 
+  end 
 end 
 
