@@ -8,11 +8,8 @@ name_hash.reduce do |key, value|
 if value < smallest_value 
   smallest_value = value 
   smallest_key = key
-end 
-if name_hash == {} 
-  return nil 
-else 
-  smallest.first 
   end 
+end 
+ smallest_key
 end 
 
