@@ -6,7 +6,9 @@ smallest = name_hash.reduce do |key, value|
   key.last > value.last ? value : key 
 end 
 if name_hash == {} 
-  return nil
+  return nil 
+else 
+  smallest
 
 end 
 
