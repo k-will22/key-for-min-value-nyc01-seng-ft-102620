@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 smallest_key = nil 
-smallest_value = 1.0/0 
+smallest_value = INFINITY 
 name_hash.reduce do |key, value|
 if value < smallest_value 
   smallest_value = value 
